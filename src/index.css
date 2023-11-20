@@ -47,9 +47,11 @@
 }
 
 #dog-info img {
-  max-width: 75vw;
-  max-height: 25vw;
+  max-width: 100%; /* Set maximum width to 100% of the container */
+  max-height: 100%; /* Set maximum height to 100% of the container */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
+
 
 body {
   margin: 0;
